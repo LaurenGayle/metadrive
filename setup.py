@@ -80,7 +80,7 @@ ros_requirement = [
 
 setup(
     name="metadrive-simulator",
-    python_requires='>=3.6, <4',  # do version check with assert
+    python_requires='>=3.11',  # do version check with assert
     version=VERSION,
     description="An open-ended driving simulator with infinite scenes",
     url="https://github.com/metadriverse/metadrive",
